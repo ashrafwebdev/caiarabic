@@ -219,6 +219,8 @@ address{color:var(--muted-dark);font-size:13px;font-style:normal;margin-top:10px
 .site-footer>div{display:flex;font-size:13px;font-weight:600;gap:24px;justify-content:flex-end}
 .site-footer>div a:hover{color:var(--saffron)}
 .site-footer>small{color:var(--muted-dark);font-size:11px;grid-column:3;justify-self:end}
+.footer-credit{border-bottom:1px solid var(--line-dark);color:var(--sand);transition:color .2s,border-color .2s}
+.footer-credit:hover{border-color:var(--saffron);color:var(--saffron)}
 
 /* About: motto */
 .motto-label{align-items:center;color:var(--terracotta);display:flex;font-size:12px;font-weight:700;gap:10px;justify-content:center;letter-spacing:.2em;margin:96px 0 24px;text-transform:uppercase}
